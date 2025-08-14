@@ -30,5 +30,5 @@ Files:
 Data Source:
 This project uses GDP and life expectancy data compiled from public datasets (e.g. World Bank, WHO, or Kaggle sources).
 
-License:
-MIT License
+License
+This project is licensed under the MIT License – see the LICENSE file for details.
