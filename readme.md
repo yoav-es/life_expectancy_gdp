@@ -11,24 +11,32 @@ Features:
 - Highlights how visualizations reveal patterns and outliers
 
 Usage:
-Clone the repository:
-git clone https://github.com/yourusername/gdp_life_expectancy.git
-cd gdp_life_expectancy
-
-Install requirements (if needed):
-pip install pandas matplotlib seaborn 
-
-Place your dataset (e.g. gdp_life_expectancy.csv) in the project directory.
-
-Run the analysis:
-python main.py
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/yourusername/gdp_life_expectancy.git  
+   cd gdp_life_expectancy
+   ```  
+2. Install dependencies (if needed):  
+   ```sh
+   pip install pandas matplotlib seaborn jupyter
+   ```  
+3. Launch the interactive notebook:  
+   ```sh
+   jupyter notebook notebooks/GDP_Life_Expectancy_Report.ipynb
+   ```  
+   Or open the pre-rendered HTML report:  
+   ```
+   reports/GDP_Life_Expectancy_Report.html
+   ```
 
 Files:
 - main.py — Main analysis script
-- gdp_life_expectancy.csv — Data file (not included; obtain from your source)
+- gdp_life_expectancy.csv — Data file 
+- life_expectancy_gdp.ipynb
+- all_data.csv
 
 Data Source:
-This project uses GDP and life expectancy data compiled from public datasets (e.g. World Bank, WHO, or Kaggle sources).
+This report uses GDP and life expectancy data compiled from public datasets (e.g. World Bank, WHO, or Kaggle sources).
 
 License
 This project is licensed under the MIT License – see the LICENSE file for details.
